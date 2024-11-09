@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    font-family: Onest, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    padding-left: 10px;
+    padding-right: 35.8px;
+    text-decoration: none;
+}
+
+.header img {
+    width: 60px;
+    height: 60px;
+}
+
+.heading {
+    font-size: xx-large;
+    display: flex;
+    justify-self: center;
+}
+
+.block1 {
+    background: url(../img/pelmeni2.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.block1-text {
+    color:black;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.block1-button {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    height: 50px;
+    width: 100px;
+    background-color: darkgreen;
+    color: white;
+    outline: none;
+}
+
+.block2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block2-item {
+    margin-left: 20px;
+    margin-right: 20px; 
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.block2-item img{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.go-to-katalog {
+    height: 50px;
+    width: 200px;
+    background-color: darkgreen;
+    color: white;
+    outline: none;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.go-to-katalog {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.about { 
+    padding: 60px 20px; 
+    background-color: #f9f9f9; 
+    text-align: center; 
+} 
+ 
+.about h2 { 
+    font-size: 2em; 
+    margin-bottom: 20px; 
+} 
+ 
+.about .content { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+} 
+ 
+.about video { 
+    width: 100%; 
+    max-width: 600px; 
+}
+
+.divider {
+    font-size: xx-large;
+    display: flex;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+.recipes { 
+    padding: 60px 20px; 
+    text-align: left; 
+} 
+    
+.recipes h2 { 
+    font-size: 2em; 
+    margin-bottom: 40px; 
+} 
+    
+.recipes .recipe { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+} 
+    
+.recipes .recipe img { 
+    width: 100%; 
+    max-width: 600px; 
+} 
+    
+.recipes .recipe-content { 
+    max-width: 600px; 
+    text-align: left; 
+}
