@@ -28,36 +28,37 @@
             <a href="Onas.html">О нас</a>
         </div>
     </div>
-    <div class="block1">
-        <div class="block1-text">
-            Нежное мясо
-        </div>
-        <div class="block1-text">
-            <h1>Вкусные и полезные
-        </div>
-        <button class="block1-button" onclick="location.href='katalog.html'">Заказать</button>
+    <div class="heading">
+        Заполните данные для доставки
     </div>
-    <div class="divider">
-        <h2>Каталог</h2>
-    </div>
-    <div class="block2">
-        <div class="block2-item">
-            <img src="img/Godza.png" alt="">
-            Гедза 560 руб за 1 кг
+    <form action="" method="get" class="form">
+        <div class="form-input">
+            <label for="name">
+                Введите ваше ФИО:
+            </label>
+            <input type="text" placeholder="Иванов Иван Иванонич">
         </div>
-        <div class="block2-item">
-            <img src="img/Holubzi.png" alt="">
-            Голубцы 550 руб за 1 кг
+        <div class="form-input">
+            <label for="number">
+                Ваш населённый пункт:
+            </label>
+            <input type="text" placeholder="Ой">
         </div>
-        <div class="block2-item">
-            <img src="img/pelmeni.png" alt="">
-            Пельмени 530 руб за 1 кг
+        <div class="form-input">
+            <label for="address">
+                Введите ваш адрес:
+            </label>
+            <input type="text" placeholder="Ул. Пушкина 32">
         </div>
-        <div class="block2-item">
-            <img src="img/Tefteli.png" alt="">
-            Тефтели 580 руб за 1 кг
+        <div class="form-input">
+            <label for="number">
+                Введите ваш номер телефона:
+            </label>
+            <input type="tel" placeholder="+79991245679">
         </div>
-    </div>
-    <button class="go-to-katalog" onclick="location.href='katalog.html'">Перейти в каталог</button>
+        <div class="form-input">
+            <button type="submit">Заказать</button>
+        </div>
+    </form>
 </body>
 </html>

@@ -44,6 +44,7 @@ body {
     font-size: xx-large;
     display: flex;
     justify-self: center;
+    margin-top: 30px;
 }
 
 .block1 {
@@ -168,4 +169,23 @@ body {
 .recipes .recipe-content { 
     max-width: 600px; 
     text-align: left; 
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.form-input {
+    margin-bottom: 20px;
+}
+
+.form-input button {
+    height: 50px;
+    width: 100px;
+    background-color: darkgreen;
+    color: white;
 }
